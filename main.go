@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ydh2333/gormStu/dbstu"
+	"github.com/ydh2333/gormStu/associationStu"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
@@ -13,5 +13,5 @@ func main() {
 		panic(err)
 	}
 
-	dbstu.Run(db)
+	associationstu.Run(db)
 }
